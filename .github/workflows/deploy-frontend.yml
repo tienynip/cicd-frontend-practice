@@ -4,7 +4,7 @@ name: CICD for frontend to Amazon Cloud
 on:
   # Workflow chạy khi có Pull Request nhắm vào branch deploy.
   push:
-    branches: [deploy]
+    branches: [main]
   # workflow_dispatch cho phép bạn chạy workflow thủ công trên giao diện GitHub 
   # mà không cần push code hoặc tạo Pull Request
   workflow_dispatch:

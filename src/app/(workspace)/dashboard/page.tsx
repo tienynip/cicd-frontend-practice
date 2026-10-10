@@ -42,7 +42,7 @@ export default function DashboardPage() {
       <section className="page-heading dashboard-heading">
         <div>
           <span className="eyebrow"><Sparkles size={15} /> Thứ Ba, không gian tri thức sẵn sàng</span>
-          <h1>Chào {firstName}, hôm nay bạn cần tìm gì? Thấy đoạn này là CICD thành công</h1>
+          <h1>Chào {firstName}, hôm nay bạn cần tìm gì? Hello tiến đẹp trai đã thành công CI-CD</h1>
           <p>Theo dõi công văn và khai thác nội dung trong phạm vi được phân quyền.</p>
         </div>
         <div className="heading-actions">
