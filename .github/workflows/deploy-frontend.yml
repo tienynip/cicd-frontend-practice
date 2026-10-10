@@ -37,7 +37,7 @@ env:
   ECR_REPOSITORY: app-frontend # Tên ECR repository lưu image của frontend (check trên ECR)
   ECS_CLUSTER: app-cluster # Tên Cluster đã tạo trong ECS dùng để chạy dự án (check trên ECS)
   ECS_SERVICE: app-frontend-service # Tên Service nằm trong Cluster (LƯU Ý: frontend và backend chạy trên 2 service khác nhau)
-  CONTAINER_NAME: app-frontend-task:1 # Tên container
+  CONTAINER_NAME: frontend # Tên container
 
 
 # Đây là job validate, có mục đích kiểm tra source frontend có thể cài đặt và build thành công trước khi triển khai lên AWS ECS.
